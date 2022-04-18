@@ -130,10 +130,10 @@ jQuery(document).ready(function($){
       return this;
   };
 });
+
 /*!
  * Lightbox v2.9.0
  * by Lokesh Dhakar
- */
 
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
@@ -536,7 +536,6 @@ jQuery(document).ready(function($){
     var self = this;
 
     // Enable anchor clicks in the injected caption html.
-    // Thanks Nate Wright for the fix. @https://github.com/NateWr
     if (typeof this.album[this.currentImageIndex].title !== 'undefined' &&
       this.album[this.currentImageIndex].title !== '') {
       var $caption = this.$lightbox.find('.lb-caption');
