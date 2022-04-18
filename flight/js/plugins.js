@@ -131,6 +131,10 @@ jQuery(document).ready(function($){
   };
 });
 
+/*!
+ * Lightbox v2.9.0
+ * by Lokesh Dhakar
+
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -156,6 +160,7 @@ jQuery(document).ready(function($){
     this.options = $.extend({}, this.constructor.defaults);
     this.option(options);
   }
+
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
