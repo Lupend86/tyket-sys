@@ -130,17 +130,6 @@ jQuery(document).ready(function($){
       return this;
   };
 });
-/*!
- * Lightbox v2.9.0
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright 2007, 2015 Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- */
 
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
@@ -167,9 +156,6 @@ jQuery(document).ready(function($){
     this.options = $.extend({}, this.constructor.defaults);
     this.option(options);
   }
-
-  // Descriptions of all options available on the demo site:
-  // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
     albumLabel: 'Image %1 of %2',
     alwaysShowNavOnTouchDevices: false,
@@ -545,7 +531,6 @@ jQuery(document).ready(function($){
     var self = this;
 
     // Enable anchor clicks in the injected caption html.
-    // Thanks Nate Wright for the fix. @https://github.com/NateWr
     if (typeof this.album[this.currentImageIndex].title !== 'undefined' &&
       this.album[this.currentImageIndex].title !== '') {
       var $caption = this.$lightbox.find('.lb-caption');
